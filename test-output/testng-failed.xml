@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="day8.CreateUser">
+        <methods>
+          <include name="test_createUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- day8.CreateUser -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="day8.GetUser">
+        <methods>
+          <include name="test_getuser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- day8.GetUser -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test3(failed)">
+    <classes>
+      <class name="day8.UpdateUser">
+        <methods>
+          <include name="test_updateUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- day8.UpdateUser -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="5" name="Test4(failed)">
+    <classes>
+      <class name="day8.DeleteUser">
+        <methods>
+          <include name="test_deletUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- day8.DeleteUser -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite] -->
